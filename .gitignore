@@ -92,7 +92,6 @@ logs
 results
 node_modules
 .node_history
-.next
 
 ############################
 # Tests
@@ -109,7 +108,6 @@ coverage
 license.txt
 exports
 *.cache
-build
 .strapi-updater.json
 
 /public/video.mp4
