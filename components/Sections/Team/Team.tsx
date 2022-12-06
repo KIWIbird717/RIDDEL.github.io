@@ -69,11 +69,11 @@ export const Team = ({ ...props }: TeamProps): JSX.Element => {
             <img
               onClick={() => slider.slidePrev()}
               className={`${styles.button} ${styles.invert}`}
-              src="/slider-button.svg"
+              src="/riddel/slider-button.svg"
               alt="Slider Prev"
             />
 
-            <img onClick={() => slider.slideNext()} className={styles.button} src="/slider-button.svg" alt="Slider Next" />
+            <img onClick={() => slider.slideNext()} className={styles.button} src="/riddel/slider-button.svg" alt="Slider Next" />
           </Grid>
         </Grid>
       </div>
