@@ -77,11 +77,7 @@ export const Card = ({ ...props }: CardProps): JSX.Element => {
             }}
             primary>
               
-              <a style={{
-                color: 'rgb(0, 76, 76)',
-                textDecoration: 'none',
-                
-              }}href="https://kiwibird717.github.io/riddel/">Mint</a>
+              Mint
           </Button>
         </Grid>
       </Grid>
