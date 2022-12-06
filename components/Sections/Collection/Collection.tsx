@@ -66,7 +66,7 @@ export const Collection = ({ ...props }: CollectionProps): JSX.Element => {
       </Grid>
       <Grid className='mobilemenu'>
       <Text heading3 style={{padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)',marginBottom: 'calc(var(--index) * 1)'}}>
-            { <a target='blank' href="https://kiwibird717.github.io/riddel/">MINT</a> }
+            { <a target='blank' href="https://kiwibird717.github.io/riddel/mint">MINT</a> }
           </Text>
       </Grid>
       <Grid className='mobilemenu'>
