@@ -1,1 +1,1 @@
-export const pathFix = '/riddel/'
+export default const pathFix = '/riddel/'
