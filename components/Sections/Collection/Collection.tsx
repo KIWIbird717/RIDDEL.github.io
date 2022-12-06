@@ -9,6 +9,7 @@ import styles from './Collection.module.scss';
 import { Grid } from '../../Atoms/Grid/Grid';
 import { Text } from '../../Atoms/Text/Text';
 import useMobile from '../../../hooks/useMobile';
+import bike from '../../public/collectionbike/1.png'
 
 const slides = [
   {
@@ -102,7 +103,8 @@ export const Collection = ({ ...props }: CollectionProps): JSX.Element => {
                   style={{
                     transform: active === index ? 'scale(0.7)' : 'scale(0.4)',
                   }}
-                  src={`public/collectionbike/${image}.png`}
+<!--                   src={`/collectionbike/${image}.png`} -->
+                  src={bike}
                   alt={`Bicycle Image`}
                 />
               </Grid>
