@@ -10,6 +10,8 @@ import { Grid } from '../../Atoms/Grid/Grid';
 import { Text } from '../../Atoms/Text/Text';
 import useMobile from '../../../hooks/useMobile';
 
+const prefix = '/riddel/'
+
 const slides = [
   {
     image: '1',
@@ -102,7 +104,7 @@ export const Collection = ({ ...props }: CollectionProps): JSX.Element => {
                   style={{
                     transform: active === index ? 'scale(0.7)' : 'scale(0.4)',
                   }}
-                  src={`/collectionbike/${image}.png`}
+                  src={prefix + `/collectionbike/${image}.png`}
                   alt={`Bicycle Image`}
                 />
               </Grid>
