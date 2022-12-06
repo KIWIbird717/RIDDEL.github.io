@@ -102,7 +102,7 @@ export const Collection = ({ ...props }: CollectionProps): JSX.Element => {
                   style={{
                     transform: active === index ? 'scale(0.7)' : 'scale(0.4)',
                   }}
-                  src={'../../../public/collectionbike/1.png'}
+                  src={`/collectionbike/${image}.png`}
                   alt={`Bicycle Image`}
                 />
               </Grid>
