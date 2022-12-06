@@ -1,13 +1,12 @@
 {
+  "homepage": "http//:",
   "name": "hardbusiness",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "export": "next export"
-    
+    "export": "next export",
     "dev": "next dev",
     "deploy": "gh-pages -d build",
-    "export": "next export",
     "build": "next build",
     "start": "next start",
     "stylelint": "stylelint '**/*.css' '**/*.scss' --fix",
