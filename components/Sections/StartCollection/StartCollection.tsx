@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { StartCollectionProps } from './StartCollection.props';
+import {pathFix} from '../../../next.config.js'
 
 import styles from './StartCollection.module.scss';
 
@@ -8,7 +9,7 @@ import 'swiper/swiper.min.css';
 
 const slides = [
   {
-    img: '/riddel/bike/1.png',
+    img: 'pathFix + /bike/1.png',
     name: 'Riddel #3213',
     href: '',
   },
