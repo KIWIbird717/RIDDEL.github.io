@@ -86,7 +86,7 @@ export const StartCollection = ({ ...props }: StartCollectionProps): JSX.Element
                       </a>
                       <img
                         style={{ marginLeft: 'calc(var(--index) * 0.7)', width: 'calc(var(--index) * 1)' }}
-                        src={'../riddel/arrow.svg'} {/* PATH FIX THERE, LAST WAS '../arrow.svg'  */}
+                        src={'../riddel/arrow.svg'}
                         alt={'arrow'}
                       />
                     </Grid>
