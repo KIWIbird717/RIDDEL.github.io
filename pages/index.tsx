@@ -39,7 +39,7 @@ function Home(): JSX.Element {
             Powered by
            </Text>
            <div className='partnersimg'>
-              <img src={'public/logoimg/logo1.png'} />
+              <img src={'logoimg/logo1.png'} />
               <img src={'logoimg/logo2.png'} />
               <img src={'logoimg/logo3.png'} />
               <img src={'logoimg/logo4.png'} />
