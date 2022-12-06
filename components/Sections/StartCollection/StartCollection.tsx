@@ -8,7 +8,7 @@ import 'swiper/swiper.min.css';
 
 const slides = [
   {
-    img: '/bike/1.png',
+    img: '/riddel/bike/1.png',
     name: 'Riddel #3213',
     href: '',
   },
