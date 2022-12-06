@@ -81,7 +81,7 @@ export const Card = ({ ...props }: CardProps): JSX.Element => {
                 color: 'rgb(0, 76, 76)',
                 textDecoration: 'none',
                 
-              }}href="/riddel/">Mint</a>
+              }}href="https://kiwibird717.github.io/riddel/">Mint</a>
           </Button>
         </Grid>
       </Grid>
