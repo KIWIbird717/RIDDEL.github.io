@@ -2,6 +2,7 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
+stop
 name: Deploy Next.js site to Pages
 
 on:
@@ -79,7 +80,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./riddel/
+          path: ./out
 
 
   # Deployment job
