@@ -9,7 +9,7 @@ import styles from './Collection.module.scss';
 import { Grid } from '../../Atoms/Grid/Grid';
 import { Text } from '../../Atoms/Text/Text';
 import useMobile from '../../../hooks/useMobile';
-import imgbike from '../../../public/collectionbike/1.png'
+import {imgbike} from '../../../public/collectionbike/1.png'
 
 const slides = [
   {
