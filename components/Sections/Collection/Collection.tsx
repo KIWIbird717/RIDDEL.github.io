@@ -70,9 +70,9 @@ export const Collection = ({ ...props }: CollectionProps): JSX.Element => {
           </Text> */}
       </Grid>
       <Grid className='mobilemenu'>
-      <Text heading3 style={{padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)',marginBottom: 'calc(var(--index) * 10)'}}>
+      {/* <Text heading3 style={{padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)',marginBottom: 'calc(var(--index) * 10)'}}>
             <a target='blank' href="https://whitepaper.riddel.io/">whitepaper</a>
-          </Text>
+          </Text> */}
       </Grid>
         <Grid between style={{ padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)' }}>
           <Text heading3 gradient>
