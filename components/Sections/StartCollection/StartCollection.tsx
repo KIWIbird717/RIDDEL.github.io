@@ -1,36 +1,37 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { StartCollectionProps } from './StartCollection.props';
-import {pathFix} from '../../../next.config.js'
 
 import styles from './StartCollection.module.scss';
 
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
+const path = '/riddel/'
+
 const slides = [
   {
-    img: 'pathFix + /bike/1.png',
+    img: path + '/bike/1.png',
     name: 'Riddel #3213',
     href: '',
   },
   {
-    img: '/bike/2.png',
+    img: path + '/bike/2.png',
     name: 'Riddel #4923',
     href: '',
     route: 'collection',
   },
   {
-    img: '/bike/3.png',
+    img: path + '/bike/3.png',
     name: 'Riddel #3237',
     href: '',
   },
   {
-    img: '/bike/4.png',
+    img: path + '/bike/4.png',
     name: 'Riddel #3235',
     href: '',
   },
   {
-    img: '/bike/5.png',
+    img: path + '/bike/5.png',
     name: 'Riddel #3236',
     href: '',
   },
@@ -85,7 +86,7 @@ export const StartCollection = ({ ...props }: StartCollectionProps): JSX.Element
                       </a>
                       <img
                         style={{ marginLeft: 'calc(var(--index) * 0.7)', width: 'calc(var(--index) * 1)' }}
-                        src={'../arrow.svg'}
+                        src={'../riddel/arrow.svg'} {/* PATH FIX THERE, LAST WAS '../arrow.svg'  */}
                         alt={'arrow'}
                       />
                     </Grid>
