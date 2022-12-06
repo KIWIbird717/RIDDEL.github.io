@@ -81,7 +81,7 @@ export const Card = ({ ...props }: CardProps): JSX.Element => {
                 color: 'rgb(0, 76, 76)',
                 textDecoration: 'none',
                 
-              }}href="https://riddel-mint.vercel.app/">Mint</a>
+              }}href="/">Mint</a>
           </Button>
         </Grid>
       </Grid>
