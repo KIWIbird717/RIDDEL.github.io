@@ -1,4 +1,1 @@
-module.exports = {
-  basePath: '/riddel/',
-  assetPrefix: '/riddel/',
-}
+export const pathFix = '/riddel/'
