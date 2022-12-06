@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "deploy": "gh-pages -d build",
+    "export": "next export",
     "build": "next build",
     "start": "next start",
     "stylelint": "stylelint '**/*.css' '**/*.scss' --fix",
