@@ -97,7 +97,7 @@ export const Team = ({ ...props }: TeamProps): JSX.Element => {
                     width: !mobile ? '100%' : 'calc(var(--index) * 12)',
                     marginBottom: 'calc(var(--index) * 1)',
                   }}
-                  src={`/team/${name.toLowerCase().replace(' ', '-')}.png`}
+                  src={`/riddel/team/${name.toLowerCase().replace(' ', '-')}.png`}
                   alt={`${name} image`}
                 />
                 <Text body3 bold uppercase style={{ fontSize: '150%' }}>
