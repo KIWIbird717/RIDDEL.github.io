@@ -28,6 +28,10 @@ const menu = [
     name1: 'Whitepaper',
     href: '',
   },
+  {
+    name1: 'Mint',
+    href: 'https://kiwibird717.github.io/riddel/mint',
+  },
 ];
 
 export const Menu = ({ column, ...props }: MenuProps): JSX.Element => {
