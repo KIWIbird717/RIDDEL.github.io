@@ -97,7 +97,7 @@ export const Video: FC<VideoProps> = ({ ...props }) => {
       </Grid>
 
       <div className={styles.video} style={{ background: '#0f0f0f', left: `-${margin}%` }}>
-        <video  className={'video'} src={`/hero.mp4` } loop autoPlay muted  playsInline webkit-playsinline id={'video'} onLoadedData={() => loadedData()}>
+        <video  className={'video'} src={`/riddel/hero.mp4` } loop autoPlay muted  playsInline webkit-playsinline id={'video'} onLoadedData={() => loadedData()}>
           Your browser does not support the video tag.
         </video>
       </div>
