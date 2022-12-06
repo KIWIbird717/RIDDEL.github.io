@@ -65,14 +65,14 @@ export const Collection = ({ ...props }: CollectionProps): JSX.Element => {
           </Text>
       </Grid>
       <Grid className='mobilemenu'>
-      {/* <Text heading3 style={{padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)',marginBottom: 'calc(var(--index) * 1)'}}>
-            { <a target='blank' href="https://riddel-mint.vercel.app/">MINT</a> }
-          </Text> */}
+      <Text heading3 style={{padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)',marginBottom: 'calc(var(--index) * 1)'}}>
+            { <a target='blank' href="https://kiwibird717.github.io/riddel/">MINT</a> }
+          </Text>
       </Grid>
       <Grid className='mobilemenu'>
-      {/* <Text heading3 style={{padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)',marginBottom: 'calc(var(--index) * 10)'}}>
-            <a target='blank' href="https://whitepaper.riddel.io/">whitepaper</a>
-          </Text> */}
+      <Text heading3 style={{padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)',marginBottom: 'calc(var(--index) * 10)'}}>
+            <a target='blank' href="https://kiwibird717.github.io/riddel/">whitepaper</a>
+          </Text>
       </Grid>
         <Grid between style={{ padding: !mobile ? '0 calc(var(--index) * 5)' : '0 calc(var(--index) * 2)' }}>
           <Text heading3 gradient>
